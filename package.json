@@ -1,0 +1,19 @@
+{
+	"name": "module-federation-vite-angular",
+	"version": "1.0.0",
+	"description": "Module Federation Vite + Angular is now possible",
+	"scripts": {
+		"install:deps": "pnpm --filter module-federation-vite-angular-* install",
+		"postinstall:deps": "pnpm --filter module-federation-vite-angular-* run build",
+		"dev": "pnpm --filter module-federation-vite-angular-* dev",
+		"build": "pnpm --filter module-federation-vite-angular-* build",
+		"preview": "pnpm --filter module-federation-vite-angular-* preview"
+	},
+	"author": {
+		"name": "Giorgio Boa",
+		"email": "giorgiob.boa@gmail.com",
+		"url": "https://github.com/gioboa"
+	},
+	"license": "ISC",
+	"packageManager": "pnpm@9.11.0+sha512.0a203ffaed5a3f63242cd064c8fb5892366c103e328079318f78062f24ea8c9d50bc6a47aa3567cabefd824d170e78fa2745ed1f16b132e16436146b7688f19b"
+}
